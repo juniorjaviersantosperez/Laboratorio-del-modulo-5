@@ -1,0 +1,40 @@
+chmod +x /home/juniorsantos/sincronizar.sh
+crontab -e
+cat /home/juniorsantos/cron.log
+clear
+touch /home/juniorsantos/Desktop/prueba1/dominicana{1..10}.txt
+cat /home/juniorsantos/cron.log
+clear
+ssh-copy-id juniorsantos@192.168.255.128
+clear
+cat /home/juniorsantos/cron.log
+crontab -e
+touch /home/juniorsantos/Desktop/prueba1/dominicana{1..10}.txt
+cat /home/juniorsantos/cron.log
+clear
+nano /home/juniorsantos/sincronizar.sh
+cat /home/juniorsantos/cron.log
+nano /home/juniorsantos/sincronizar.sh
+clear
+nano /home/juniorsantos/sincronizar.sh
+crontab -e
+clear
+mkdir /home/juniorsantos/Desktop/prueba1/
+touch /home/juniorsantos/Desktop/prueba1/archivo{1..100}.txt
+cd Desktop/prueba1/
+ls
+clear
+cd
+clear
+rsync -avz /home/juniorsantos/Desktop/prueba1/ juniorsantos@192.168.255.128:/home/juniorsantos/Desktop/prueba2/
+clear
+nano /home/juniorsantos/sincronizar.sh
+chmod +x /home/juniorsantos/sincronizar.sh
+crontab -e
+touch /home/juniorsantos/Desktop/prueba1/dominicana{1..10}.txt
+cat /home/juniorsantos/cron.log
+cat /home/juniorsantos/cron.log
+clear
+touch /home/juniorsantos/Desktop/prueba1/rrrrrrrrrrrrrrrrrrrrrrrrrrrrr{1..10}.txt
+clear
+history
