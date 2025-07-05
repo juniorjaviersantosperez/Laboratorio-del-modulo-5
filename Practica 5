@@ -1,0 +1,14 @@
+sudo apt install heartbeat
+sudo nano /etc/hosts
+sudo nano /etc/ha.d/ha.cf
+sudo nano /etc/ha.d/authkeys 
+sudo chmod 600 /etc/ha.d/authkeys
+sudo nano /etc/ha.d/haresources 
+sudo systemctl restart heartbeat
+sudo systemctl status heartbeat
+clear
+ifconfig 
+ping 192.168.255.130
+ping 192.168.255.100
+ifconfig 
+history
