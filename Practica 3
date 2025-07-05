@@ -1,0 +1,17 @@
+# Instala Apache2
+sudo apt update
+sudo apt install apache2 -y
+
+# Verifica estado de Apache2
+sudo systemctl status apache2
+
+# Crea página web simple
+echo "<h1> Hola soy el server1 </h1>" | sudo tee /var/www/html/index.html
+
+# Instala Keepalived
+sudo apt install keepalived -y
+
+# Habilita y reinicia el servicio
+sudo systemctl enable keepalived
+sudo systemctl restart keepalived
+sudo systemctl status keepalived
